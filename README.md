@@ -84,4 +84,3 @@ You can also use the provided shell script to run the application:
 ```bash
 ./run_app.sh
 ```
-```
