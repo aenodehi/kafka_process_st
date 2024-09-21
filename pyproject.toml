@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "mlit"
+version = "0.1.0"
+description = ""
+authors = ["alino <aenodehi@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "*"
+numpy = "*"
+pandas = "*"
+altair = "*"
+six = "*"
+confluent_kafka = "*"
+plotly = "*"
+kafka-python = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# Remove or correct the [tool.poetry.package-mode] section
+# [tool.poetry.package-mode]
+# enabled = false
